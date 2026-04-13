@@ -24,7 +24,7 @@ function getGrade(total) {
     return "Pass";
   } else if (total >= 250) {
     return "Poor";
-  } else if (Input.value == "") {
-    return null;
+  } else {
+    return "fair";
   }
 }
