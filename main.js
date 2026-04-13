@@ -9,7 +9,7 @@ button.addEventListener("click", function () {
   let biology = Number(document.getElementById("Biology").value);
   let total = physics + chemistry + maths + biology;
   let gradeText = getGrade(total);
-  result.innerText = `The Mark Is = ${total} / 500 `;
+  result.innerText = `The Mark Is = ${total} / 450 `;
   Grade.innerHTML = gradeText
 });
 
