@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #164858;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  padding: 10px;
+  max-width: 500px;
+  width: 400px;
+  height: auto;
+  background-color: #164858;
+  box-shadow: 4px 17px 40px rgba(0, 0, 0, 4.2);
+  border-radius: 15px;
+
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  margin-top: 15px;
+  padding: 14px;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+::placeholder {
+  color: black;
+}
+
+input:hover {
+  transform: rotateY(40deg);
+  transition: all 0.5s ease-in-out;
+}
+
+button {
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin: 26px auto;
+  display: block;
+  background: linear-gradient(to bottom, #a3d944, #44ad40);
+  color: white;
+  padding: 15px;
+  border-radius: 22px;
+}
+
+button:hover {
+  transition: all 0.5s ease-in-out;
+  transform: rotateX(45deg);
+}
+h2 {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  margin-top: 15px;
+}
+
+#result {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  display: block; 
+}
+
+#Grade {
+  color: #a3d944; 
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  display: block; 
+}
